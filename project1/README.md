@@ -1,3 +1,2 @@
-﻿#Задание:
-Построить схему и настроить маршрутизацию.
-![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
+﻿# Задание - Построить схему и настроить маршрутизацию.
+![Image alt](https://raw.githubusercontent.com/Kolpach/eltex-networks/main/project1/scheme.png)
