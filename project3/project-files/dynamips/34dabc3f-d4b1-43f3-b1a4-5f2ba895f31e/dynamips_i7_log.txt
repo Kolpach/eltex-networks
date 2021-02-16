@@ -1,0 +1,53 @@
+Feb 15 14:04:20.029 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Feb 15 14:04:20.029 HYPERVISOR: Started on IP = localhost, TCP port = 33353.
+Feb 15 14:04:20.040 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 15 14:04:20.040 HYPERVISOR: exec_cmd: hypervisor working_dir /home/kolpach/Рабочий стол/eltex-networks/project3/project-files/dynamips 
+Feb 15 14:04:20.040 GENERAL: working_dir=/home/kolpach/Рабочий стол/eltex-networks/project3/project-files/dynamips
+Feb 15 14:04:20.041 HYPERVISOR: exec_cmd: hypervisor working_dir /home/kolpach/Рабочий стол/eltex-networks/project3/project-files/dynamips/34dabc3f-d4b1-43f3-b1a4-5f2ba895f31e 
+Feb 15 14:04:20.041 GENERAL: working_dir=/home/kolpach/Рабочий стол/eltex-networks/project3/project-files/dynamips/34dabc3f-d4b1-43f3-b1a4-5f2ba895f31e
+Feb 15 14:04:20.041 HYPERVISOR: exec_cmd: vm create R7 7 c3745 
+Feb 15 14:04:20.042 VM: VM R7 created.
+Feb 15 14:04:20.043 HYPERVISOR: exec_cmd: vm set_con_tcp_port R7 5006 
+Feb 15 14:04:20.043 HYPERVISOR: exec_cmd: c3745 get_mac_addr R7 
+Feb 15 14:04:20.044 HYPERVISOR: exec_cmd: vm set_ios R7 /home/kolpach/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 15 14:04:20.045 HYPERVISOR: exec_cmd: vm get_status R7 
+Feb 15 14:04:20.046 HYPERVISOR: exec_cmd: vm set_idle_pc R7 0x60aa1da0 
+Feb 15 14:04:20.046 HYPERVISOR: exec_cmd: vm set_ram R7 256 
+Feb 15 14:04:20.047 HYPERVISOR: exec_cmd: vm set_nvram R7 256 
+Feb 15 14:04:20.048 HYPERVISOR: exec_cmd: vm set_disk0 R7 0 
+Feb 15 14:04:20.048 HYPERVISOR: exec_cmd: vm get_status R7 
+Feb 15 14:04:20.049 HYPERVISOR: exec_cmd: vm slot_add_binding R7 1 0 NM-1FE-TX 
+Feb 15 14:04:20.049 HYPERVISOR: exec_cmd: vm get_status R7 
+Feb 15 14:04:20.049 HYPERVISOR: exec_cmd: vm slot_add_binding R7 2 0 NM-1FE-TX 
+Feb 15 14:04:20.117 HYPERVISOR: exec_cmd: vm set_ios R7 /home/kolpach/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 15 14:05:01.304 HYPERVISOR: exec_cmd: vm set_ios R7 /home/kolpach/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 15 14:06:31.363 HYPERVISOR: exec_cmd: nio create_udp udp-34eaca62-8c26-481e-b4b7-c2eb9d23f3f4 10046 127.0.0.1 10047 
+Feb 15 14:06:31.587 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R7 0 0 udp-34eaca62-8c26-481e-b4b7-c2eb9d23f3f4 
+Feb 15 14:06:31.588 HYPERVISOR: exec_cmd: vm get_status R7 
+Feb 15 14:06:34.128 HYPERVISOR: exec_cmd: nio create_udp udp-c529a645-a63f-41d6-9325-0d1a223bb4cf 10050 127.0.0.1 10051 
+Feb 15 14:06:34.129 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R7 0 1 udp-c529a645-a63f-41d6-9325-0d1a223bb4cf 
+Feb 15 14:06:34.130 HYPERVISOR: exec_cmd: vm get_status R7 
+Feb 15 14:37:54.920 HYPERVISOR: exec_cmd: vm create Ghost 0 c3745 
+Feb 15 14:37:54.935 VM: VM Ghost created.
+Feb 15 14:37:54.936 HYPERVISOR: exec_cmd: vm set_ios Ghost /home/kolpach/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 15 14:37:54.936 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Feb 15 14:37:54.937 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /home/kolpach/Рабочий стол/eltex-networks/project3/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Feb 15 14:37:54.938 HYPERVISOR: exec_cmd: vm set_ram Ghost 256 
+Feb 15 14:37:54.938 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Feb 15 14:37:54.954 HYPERVISOR: exec_cmd: vm set_config Ghost configs/i0_startup-config.cfg 
+Feb 15 14:37:54.954 HYPERVISOR: exec_cmd: vm start Ghost 
+Feb 15 14:37:55.786 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Feb 15 14:37:55.787 HYPERVISOR: exec_cmd: vm stop Ghost 
+Feb 15 14:37:55.992 VM: VM Ghost shutdown.
+Feb 15 14:37:55.993 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Feb 15 14:37:55.995 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Feb 15 14:37:55.995 VM: VM Ghost destroyed.
+Feb 15 14:37:55.997 HYPERVISOR: exec_cmd: vm set_ghost_status R7 2 
+Feb 15 14:37:55.997 HYPERVISOR: exec_cmd: vm set_ghost_file R7 /home/kolpach/Рабочий стол/eltex-networks/project3/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Feb 15 14:37:55.998 HYPERVISOR: exec_cmd: vm get_status R7 
+Feb 15 14:37:55.999 HYPERVISOR: exec_cmd: vm set_config R7 configs/i7_startup-config.cfg 
+Feb 15 14:37:56.000 HYPERVISOR: exec_cmd: vm start R7 
+Feb 15 14:55:26.432 HYPERVISOR: exec_cmd: vm extract_config R7 
+Feb 15 14:55:26.456 HYPERVISOR: exec_cmd: vm extract_config R7 
+Feb 15 16:00:13.031 HYPERVISOR: exec_cmd: vm get_status R7 
+Feb 15 16:00:13.107 HYPERVISOR: exec_cmd: vm set_idle_pc_online R7 0 0x60aa311c 

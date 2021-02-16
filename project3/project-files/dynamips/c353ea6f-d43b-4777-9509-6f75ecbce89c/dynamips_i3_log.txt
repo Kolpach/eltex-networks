@@ -1,0 +1,42 @@
+Feb 15 14:04:09.660 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Feb 15 14:04:09.660 HYPERVISOR: Started on IP = localhost, TCP port = 38189.
+Feb 15 14:04:09.673 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 15 14:04:09.673 HYPERVISOR: exec_cmd: hypervisor working_dir /home/kolpach/Рабочий стол/eltex-networks/project3/project-files/dynamips 
+Feb 15 14:04:09.673 GENERAL: working_dir=/home/kolpach/Рабочий стол/eltex-networks/project3/project-files/dynamips
+Feb 15 14:04:09.674 HYPERVISOR: exec_cmd: hypervisor working_dir /home/kolpach/Рабочий стол/eltex-networks/project3/project-files/dynamips/c353ea6f-d43b-4777-9509-6f75ecbce89c 
+Feb 15 14:04:09.674 GENERAL: working_dir=/home/kolpach/Рабочий стол/eltex-networks/project3/project-files/dynamips/c353ea6f-d43b-4777-9509-6f75ecbce89c
+Feb 15 14:04:09.674 HYPERVISOR: exec_cmd: vm create R3 3 c3745 
+Feb 15 14:04:09.675 VM: VM R3 created.
+Feb 15 14:04:09.675 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5002 
+Feb 15 14:04:09.676 HYPERVISOR: exec_cmd: c3745 get_mac_addr R3 
+Feb 15 14:04:09.677 HYPERVISOR: exec_cmd: vm set_ios R3 /home/kolpach/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 15 14:04:09.678 HYPERVISOR: exec_cmd: vm get_status R3 
+Feb 15 14:04:09.678 HYPERVISOR: exec_cmd: vm set_idle_pc R3 0x60aa1da0 
+Feb 15 14:04:09.678 HYPERVISOR: exec_cmd: vm set_ram R3 256 
+Feb 15 14:04:09.679 HYPERVISOR: exec_cmd: vm set_nvram R3 256 
+Feb 15 14:04:09.679 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+Feb 15 14:04:09.680 HYPERVISOR: exec_cmd: vm get_status R3 
+Feb 15 14:04:09.680 HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 NM-1FE-TX 
+Feb 15 14:04:09.680 HYPERVISOR: exec_cmd: vm get_status R3 
+Feb 15 14:04:09.680 HYPERVISOR: exec_cmd: vm slot_add_binding R3 2 0 NM-1FE-TX 
+Feb 15 14:04:09.729 HYPERVISOR: exec_cmd: vm set_ios R3 /home/kolpach/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 15 14:04:29.729 HYPERVISOR: exec_cmd: vm set_ios R3 /home/kolpach/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 15 14:05:51.710 HYPERVISOR: exec_cmd: nio create_udp udp-9ea71960-8a46-41e9-87f0-c2296e15e1af 10010 127.0.0.1 10011 
+Feb 15 14:05:51.928 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 0 udp-9ea71960-8a46-41e9-87f0-c2296e15e1af 
+Feb 15 14:05:51.929 HYPERVISOR: exec_cmd: vm get_status R3 
+Feb 15 14:05:54.637 HYPERVISOR: exec_cmd: nio create_udp udp-f2e7009f-6b31-4ad8-915c-699aa2a7de17 10014 127.0.0.1 10015 
+Feb 15 14:05:54.638 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 1 udp-f2e7009f-6b31-4ad8-915c-699aa2a7de17 
+Feb 15 14:05:54.638 HYPERVISOR: exec_cmd: vm get_status R3 
+Feb 15 14:06:42.902 HYPERVISOR: exec_cmd: nio create_udp udp-80e0bfb0-4ebd-4709-8ce7-6627f3e87dec 10056 127.0.0.1 10057 
+Feb 15 14:06:42.903 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 1 0 udp-80e0bfb0-4ebd-4709-8ce7-6627f3e87dec 
+Feb 15 14:06:42.904 HYPERVISOR: exec_cmd: vm get_status R3 
+Feb 15 14:06:47.850 HYPERVISOR: exec_cmd: nio create_udp udp-333cf39e-ffd5-4fad-b469-5663f5e25639 10062 127.0.0.1 10063 
+Feb 15 14:06:47.851 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 2 0 udp-333cf39e-ffd5-4fad-b469-5663f5e25639 
+Feb 15 14:06:47.851 HYPERVISOR: exec_cmd: vm get_status R3 
+Feb 15 14:59:05.620 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
+Feb 15 14:59:05.627 HYPERVISOR: exec_cmd: vm set_ghost_file R3 /home/kolpach/Рабочий стол/eltex-networks/project3/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Feb 15 14:59:05.628 HYPERVISOR: exec_cmd: vm get_status R3 
+Feb 15 14:59:05.643 HYPERVISOR: exec_cmd: vm set_config R3 configs/i3_startup-config.cfg 
+Feb 15 14:59:05.644 HYPERVISOR: exec_cmd: vm start R3 
+Feb 15 15:27:37.007 HYPERVISOR: exec_cmd: vm extract_config R3 
+Feb 15 15:27:37.208 HYPERVISOR: exec_cmd: vm extract_config R3 

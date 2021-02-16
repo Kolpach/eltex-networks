@@ -1,0 +1,51 @@
+Feb 15 14:04:13.951 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Feb 15 14:04:13.951 HYPERVISOR: Started on IP = localhost, TCP port = 42017.
+Feb 15 14:04:13.962 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 15 14:04:13.975 HYPERVISOR: exec_cmd: hypervisor working_dir /home/kolpach/Рабочий стол/eltex-networks/project3/project-files/dynamips 
+Feb 15 14:04:13.975 GENERAL: working_dir=/home/kolpach/Рабочий стол/eltex-networks/project3/project-files/dynamips
+Feb 15 14:04:13.976 HYPERVISOR: exec_cmd: hypervisor working_dir /home/kolpach/Рабочий стол/eltex-networks/project3/project-files/dynamips/87ef77ce-d386-4845-9151-8df8347cd01d 
+Feb 15 14:04:13.976 GENERAL: working_dir=/home/kolpach/Рабочий стол/eltex-networks/project3/project-files/dynamips/87ef77ce-d386-4845-9151-8df8347cd01d
+Feb 15 14:04:13.976 HYPERVISOR: exec_cmd: vm create R4 4 c3745 
+Feb 15 14:04:13.976 VM: VM R4 created.
+Feb 15 14:04:13.977 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5003 
+Feb 15 14:04:13.977 HYPERVISOR: exec_cmd: c3745 get_mac_addr R4 
+Feb 15 14:04:13.977 HYPERVISOR: exec_cmd: vm set_ios R4 /home/kolpach/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 15 14:04:13.978 HYPERVISOR: exec_cmd: vm get_status R4 
+Feb 15 14:04:13.978 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x60aa1da0 
+Feb 15 14:04:13.978 HYPERVISOR: exec_cmd: vm set_ram R4 256 
+Feb 15 14:04:13.979 HYPERVISOR: exec_cmd: vm set_nvram R4 256 
+Feb 15 14:04:13.979 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Feb 15 14:04:13.979 HYPERVISOR: exec_cmd: vm get_status R4 
+Feb 15 14:04:13.979 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 NM-1FE-TX 
+Feb 15 14:04:13.980 HYPERVISOR: exec_cmd: vm get_status R4 
+Feb 15 14:04:13.980 HYPERVISOR: exec_cmd: vm slot_add_binding R4 2 0 NM-1FE-TX 
+Feb 15 14:04:14.031 HYPERVISOR: exec_cmd: vm set_ios R4 /home/kolpach/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 15 14:04:32.242 HYPERVISOR: exec_cmd: vm set_ios R4 /home/kolpach/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 15 14:05:14.556 HYPERVISOR: exec_cmd: vm set_ios R4 /home/kolpach/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 15 14:05:19.666 HYPERVISOR: exec_cmd: vm set_ios R4 /home/kolpach/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 15 14:05:59.565 HYPERVISOR: exec_cmd: nio create_udp udp-d3af5d56-0407-4d58-b67c-e9c48059ca26 10022 127.0.0.1 10023 
+Feb 15 14:05:59.784 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 1 0 udp-d3af5d56-0407-4d58-b67c-e9c48059ca26 
+Feb 15 14:05:59.786 HYPERVISOR: exec_cmd: vm get_status R4 
+Feb 15 14:06:08.948 HYPERVISOR: exec_cmd: vm get_status R4 
+Feb 15 14:06:08.948 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R4 1 0 
+Feb 15 14:06:08.949 HYPERVISOR: exec_cmd: nio delete udp-d3af5d56-0407-4d58-b67c-e9c48059ca26 
+Feb 15 14:06:12.499 HYPERVISOR: exec_cmd: nio create_udp udp-cc38beb8-67af-447a-99e4-300f2da27108 10022 127.0.0.1 10023 
+Feb 15 14:06:12.500 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 0 udp-cc38beb8-67af-447a-99e4-300f2da27108 
+Feb 15 14:06:12.501 HYPERVISOR: exec_cmd: vm get_status R4 
+Feb 15 14:06:21.123 HYPERVISOR: exec_cmd: nio create_udp udp-16d8ccb8-7960-4960-91b3-c77c5a67c546 10032 127.0.0.1 10033 
+Feb 15 14:06:21.124 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 1 udp-16d8ccb8-7960-4960-91b3-c77c5a67c546 
+Feb 15 14:06:21.125 HYPERVISOR: exec_cmd: vm get_status R4 
+Feb 15 15:37:52.896 HYPERVISOR: exec_cmd: vm set_ghost_status R4 2 
+Feb 15 15:37:52.936 HYPERVISOR: exec_cmd: vm set_ghost_file R4 /home/kolpach/Рабочий стол/eltex-networks/project3/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Feb 15 15:37:52.973 HYPERVISOR: exec_cmd: vm get_status R4 
+Feb 15 15:37:53.415 HYPERVISOR: exec_cmd: vm set_config R4 configs/i4_startup-config.cfg 
+Feb 15 15:37:53.416 HYPERVISOR: exec_cmd: vm start R4 
+Feb 15 15:59:56.529 HYPERVISOR: exec_cmd: vm get_status R4 
+Feb 15 15:59:56.689 HYPERVISOR: exec_cmd: vm set_idle_pc_online R4 0 0x0 
+Feb 15 15:59:56.709 HYPERVISOR: exec_cmd: vm get_status R4 
+Feb 15 15:59:56.717 HYPERVISOR: exec_cmd: vm get_status R4 
+Feb 15 15:59:56.735 HYPERVISOR: exec_cmd: vm get_idle_pc_prop R4 0 
+Feb 15 16:00:07.088 HYPERVISOR: exec_cmd: vm get_status R4 
+Feb 15 16:00:07.088 HYPERVISOR: exec_cmd: vm set_idle_pc_online R4 0 0x60aa311c 
+Feb 15 16:00:07.133 HYPERVISOR: exec_cmd: vm cpu_usage R4 0 
+Feb 15 16:00:10.135 HYPERVISOR: exec_cmd: vm cpu_usage R4 0 
